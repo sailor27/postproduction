@@ -7,21 +7,26 @@ html, body {
 
 [role='banner']{
   content: '';
-  display: flex;
-  flex-flow: row wrap;
-  flex: 1 100%;
+  width:70%;
+  margin: auto;
   left: 0;
   border-style: hidden;
   border-width: 1px;
   z-index: -1;
   left: 0;
-  background-color: pink;
+  /*background-color: pink;*/
 
-
+  text-align: center;
 }
+
 
 ul {
   list-style: none;
+}
+
+a {
+  color:inherit;
+
 }
 
 [role='banner'] h1,
@@ -35,34 +40,37 @@ ul {
 .flex-row {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-}
+  justify-content: center;
 
-.flex-row h1{
-  align-self: center;
-}
 
-.flex-col{
   border-style:solid;
   border-width: 1px;
   border-color: pink;
+}
+
+
+
+.flex-col{
+
   display: flex;
   flex-flow: column;
 
+  padding: 2rem;
+  margin: 2rem;
+
+  border-style:solid;
+  border-width: 1px;
+  border-color: pink;
 
 }
 
-.flex-col h2 {
-  font-family:'Open Sans', sans-serif;
 
-}
 
 .nextpage {
   border-style: hidden;
   border-width: 1px;
   padding:0.5rem;
   text-align: center;
-
   color: white;
   background-color: black;
 
