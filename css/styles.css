@@ -1,8 +1,13 @@
 html, body {
   margin: 0;
   font-family:'Open Sans', sans-serif;
+  height: 100vh;
+  font-size: 16px;
+
+  line-height: 1.25;
 
 }
+
 
 
 [role='banner']{
@@ -14,14 +19,18 @@ html, body {
   border-width: 1px;
   z-index: -1;
   left: 0;
-  /*background-color: pink;*/
 
   text-align: center;
 }
 
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  
+}
+
+li {
+
 }
 
 a {
@@ -32,7 +41,6 @@ a {
 [role='banner'] h1,
 [role='banner'] h2 {
   margin: 25px;
-  line-height: 1.2;
   padding-bottom: .25rem;
 
 }
@@ -41,11 +49,10 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-
-
   border-style:solid;
   border-width: 1px;
   border-color: pink;
+
 }
 
 
@@ -62,6 +69,9 @@ a {
   border-width: 1px;
   border-color: pink;
 
+  text-align: center;
+  justify-content: center;
+
 }
 
 
@@ -69,7 +79,7 @@ a {
 .nextpage {
   border-style: hidden;
   border-width: 1px;
-  padding:0.5rem;
+  padding:0.4rem;
   text-align: center;
   color: white;
   background-color: black;
