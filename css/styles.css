@@ -24,15 +24,6 @@ html, body {
 }
 
 
-ul {
-  list-style-type: none;
-  
-}
-
-li {
-
-}
-
 a {
   color:inherit;
 
@@ -49,7 +40,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border-style:solid;
+  border-style:hidden;
   border-width: 1px;
   border-color: pink;
 
@@ -65,7 +56,7 @@ a {
   padding: 2rem;
   margin: 2rem;
 
-  border-style:solid;
+  border-style:hidden;
   border-width: 1px;
   border-color: pink;
 
